@@ -1,0 +1,9 @@
+env
+.vscode
+eggs
+*.pyc
+*.pyo
+*.egg-*
+data
+build
+dist
