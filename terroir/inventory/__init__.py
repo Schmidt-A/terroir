@@ -6,7 +6,6 @@ from configparser import ConfigParser
 
 import click
 import requests
-from bs4 import BeautifulSoup
 from zope.dottedname.resolve import resolve as resolve_dotted
 
 # Note: adding a command suffix to all commands to avoid module namespace issues
@@ -67,9 +66,8 @@ def inventory_cmd(store, config_file, force_overwrite, saved_urls):
     while next_page_url:
         # TODO: debug/verbose when logging set up.
         print(f'Processing {next_page_url}')
-        wine_urls, next_page_url = list_parser(
-            config[store]["base_url"] + next_page_url
-        )
+        req = requests.get(config[store]["base_url"] + next_page_url)
+        wine_urls, next_page_url = list_parser(req)
         all_wine_urls.extend(wine_urls)
         time.sleep(0.1)
     print(f'Done fetching urls. Writing results to {saved_urls}')

@@ -1,13 +1,11 @@
-import requests
 from bs4 import BeautifulSoup
 
 class LCListParser(object):
 
-    def __call__(self, url):
+    def __call__(self, req):
         next_page = None
         wine_urls = []
 
-        req = requests.get(url)
         soup = BeautifulSoup(req.text, 'html.parser')
         links = soup.find_all('a')
 
