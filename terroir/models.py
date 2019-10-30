@@ -1,6 +1,7 @@
 from schematics.exceptions import ValidationError
 from schematics.models import Model
-from schematics.types import FloatType, ListType, ModelType, StringType, URLType
+from schematics.types import (FloatType, ListType, ModelType, StringType,
+                              URLType)
 
 
 class WineType(StringType):

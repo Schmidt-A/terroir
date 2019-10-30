@@ -2,6 +2,7 @@ import click
 
 from terroir.inventory import inventory_cmd
 
+
 @click.group()
 def terroir():
     pass
