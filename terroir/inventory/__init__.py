@@ -14,7 +14,7 @@ from zope.dottedname.resolve import resolve as resolve_dotted
 @click.argument('store', type=click.STRING)
 @click.option(
     '-c', '--config_file', type=click.Path(),
-    show_default=True, default='configs/inventory.ini')
+    show_default=True, default='configs/fetch_inventory.ini')
 @click.option(
     '-d', '--data_dir', type=click.Path(writable=True),
     show_default=True, default=f'data')
