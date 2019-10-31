@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 
+
 class LCListParser(object):
 
     def __call__(self, req):

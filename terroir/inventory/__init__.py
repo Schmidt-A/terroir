@@ -9,33 +9,35 @@ import requests
 from zope.dottedname.resolve import resolve as resolve_dotted
 
 # Note: adding a command suffix to all commands to avoid module namespace issues
-@click.command(name='inventory')
+@click.command(name='fetch_inventory')
 @click.argument('store', type=click.STRING)
 @click.option(
-    '-c', '--config_file', type=click.Path(), default='configs/inventory.ini')
+    '-c', '--config_file', type=click.Path(),
+    show_default=True, default='configs/inventory.ini')
 @click.option(
-    '-s', '--saved_urls', type=click.Path(writable=True),
-    default='data/saved_urls.txt')
+    '-d', '--data_dir', type=click.Path(writable=True),
+    show_default=True, default=f'data')
 @click.option(
-    '-f', '--force_overwrite', type=click.BOOL, is_flag=True, default=False)
-def inventory_cmd(store, config_file, force_overwrite, saved_urls):
+    '-f', '--force_overwrite', type=click.BOOL, is_flag=True,
+    show_default=True, default=False)
+def fetch_inventory_cmd(store, config_file, force_overwrite, data_dir):
     """Build up list of wines available on a store's website.
 
     Arguments:
     STORE: Store from which to fetch inventory.
 
-        Supported options: lc
+        Supported options: kenaston, lc
 
     Options documentation:
 
-    -c, --config: Path to config file. default: configs/inventory.ini
+    -c, --config: Path to config file.
 
-    -s, --saved_urls: Location to save results to. default: data/saved_urls.txt
+    -s, --saved_urls: Location to save results to.
 
     -f, --force_overwrite: Overwrite file specified by --saved_urls. Useful if
-        you want to refresh the list - new wines added, etc. default: False
+        you want to refresh the list - new wines added, etc.
     """
-
+    saved_urls = os.path.join(data_dir, 'inventory', store, 'urls.txt')
     config = ConfigParser()
     print(f'Reading config from {config_file}')
     config.read(config_file)
@@ -70,7 +72,12 @@ def inventory_cmd(store, config_file, force_overwrite, saved_urls):
         wine_urls, next_page_url = list_parser(req)
         all_wine_urls.extend(wine_urls)
         time.sleep(0.1)
+
     print(f'Done fetching urls. Writing results to {saved_urls}')
+
+    target_dir = os.path.dirname(saved_urls)
+    if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
 
     with open(saved_urls, 'w') as f:
         for url in all_wine_urls:
