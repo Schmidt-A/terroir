@@ -8,6 +8,7 @@ import click
 import requests
 from zope.dottedname.resolve import resolve as resolve_dotted
 
+
 # Note: adding a command suffix to all commands to avoid module namespace issues
 @click.command(name='fetch_inventory')
 @click.argument('store', type=click.STRING)

@@ -1,5 +1,6 @@
-from bs4 import BeautifulSoup
 from urllib.parse import parse_qs, urlencode
+
+from bs4 import BeautifulSoup
 from urllib3.util import parse_url
 
 
