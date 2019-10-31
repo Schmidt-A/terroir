@@ -1,7 +1,5 @@
-import re
-
 from bs4 import BeautifulSoup
-from urllib.parse import parse_qs
+from urllib.parse import parse_qs, urlencode
 from urllib3.util import parse_url
 
 
@@ -26,16 +24,17 @@ class KenastonListParser(object):
                 wine_urls.append(href)
 
         _, _, _, _, path, query, _ = parse_url(req.url)
-        query_dict = parse_qs(query)
-        _type = query_dict['q'][0]
+        url_params = parse_qs(query)
+        _type = url_params['q'][0]
 
         if len(links) > 0:
-            next_page_num = int(query_dict['page'][0]) + 1
-            next_page = path + '?' + re.sub(r'\d+', str(next_page_num), query)
+            url_params['q'] = _type
+            url_params['page'] = int(url_params['page'][0]) + 1
+            next_page = path + '?' + urlencode(url_params)
         elif len(self.to_be_parsed) > 0:
             self.parsed_wine_types.append(_type)
-            next_type = self.to_be_parsed.pop(0)
-            next_page = path + '?'+ query.replace(_type, next_type)
-            next_page = re.sub(r'\d+', '1', next_page)
+            url_params['q'] = self.to_be_parsed.pop(0)
+            url_params['page'] = 1
+            next_page = path + '?' + urlencode(url_params)
 
         return wine_urls, next_page
