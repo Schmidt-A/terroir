@@ -7,7 +7,7 @@ from urllib3.util import parse_url
 from terroir.db.models import Grape, Wine
 
 
-class LCModelParser(object):
+class LCModelScraper(object):
 
     def __call__(self, req):
         soup = BeautifulSoup(req.text, 'html5lib')
