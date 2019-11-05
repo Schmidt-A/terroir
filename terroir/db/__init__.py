@@ -8,8 +8,10 @@ import requests
 import click
 from zope.dottedname.resolve import resolve as resolve_dotted
 
+from terroir.commands import terroir
 
-@click.command(name='update_models')
+
+@terroir.command(name='update_models')
 @click.argument('store', type=click.STRING)
 @click.option(
     '-c', '--config_file', type=click.Path(),

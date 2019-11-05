@@ -7,9 +7,11 @@ import click
 import requests
 from zope.dottedname.resolve import resolve as resolve_dotted
 
+from terroir.commands import terroir
+
 
 # Note: adding a command suffix to all commands to avoid module namespace issues
-@click.command(name='fetch_inventory')
+@terroir.command(name='fetch_inventory')
 @click.argument('store', type=click.STRING)
 @click.option(
     '-c', '--config_file', type=click.Path(),
