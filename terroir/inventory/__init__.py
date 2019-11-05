@@ -34,7 +34,7 @@ def fetch_inventory_cmd(store, config_file, force_overwrite, data_dir):
 
     -c, --config: Path to config file.
 
-    -s, --saved_urls: Location to save results to.
+    -d, --data_dir: Location to save results to.
 
     -f, --force_overwrite: Overwrite file specified by --saved_urls. Useful if
         you want to refresh the list - new wines added, etc.
