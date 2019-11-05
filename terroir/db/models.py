@@ -1,7 +1,7 @@
 from schematics.exceptions import ValidationError
 from schematics.models import Model
-from schematics.types import (FloatType, ListType, ModelType, StringType,
-                              URLType)
+from schematics.types import (FloatType, IntType, ListType, ModelType,
+                              StringType, URLType)
 
 
 class WineType(StringType):
@@ -18,5 +18,12 @@ class Grape(Model):
 class Wine(Model):
     name = StringType(required=True)
     grape = ModelType(Grape, required=True)
+    upc = IntType()
+    producer = StringType()
     price = FloatType()
-    lc_website = URLType(required=True)
+    country = StringType()
+    websites = ListType(URLType)
+    profile = ListType(StringType)
+    description = StringType()
+    image = URLType()
+    stores = ListType(StringType)

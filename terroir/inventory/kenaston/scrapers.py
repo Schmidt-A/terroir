@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from urllib3.util import parse_url
 
 
-class KenastonListParser(object):
+class KenastonListScraper(object):
 
     to_be_parsed = ['White', 'Rosé', 'Sparkling']
     parsed_wine_types = []

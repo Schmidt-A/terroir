@@ -1,7 +1,6 @@
 import os
 import sys
 import time
-from argparse import ArgumentParser
 from configparser import ConfigParser
 
 import click
@@ -17,7 +16,7 @@ from zope.dottedname.resolve import resolve as resolve_dotted
     show_default=True, default='configs/fetch_inventory.ini')
 @click.option(
     '-d', '--data_dir', type=click.Path(writable=True),
-    show_default=True, default=f'data')
+    show_default=True, default='data')
 @click.option(
     '-f', '--force_overwrite', type=click.BOOL, is_flag=True,
     show_default=True, default=False)

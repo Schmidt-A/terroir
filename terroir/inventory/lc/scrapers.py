@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 
-class LCListParser(object):
+class LCListScraper(object):
 
     def __call__(self, req):
         next_page = None
