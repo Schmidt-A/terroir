@@ -28,7 +28,7 @@ model_urls = [
         'https://www.liquormarts.ca/product/hen-house-ruffled-red-vqa/750-ml'
     )
 ]
-@pytest.mark.skip()
+@pytest.mark.slow()
 @pytest.mark.parametrize('store, url', model_urls)
 def test_update_models_command(store, url, get_config_data):
     runner = CliRunner()
@@ -45,7 +45,7 @@ def test_update_models_command(store, url, get_config_data):
 
         assert result.exit_code == 0
 
-@pytest.mark.skip()
+@pytest.mark.slow()
 @pytest.mark.parametrize('store', stores)
 def test_update_models_no_urls(store):
     runner = CliRunner()
@@ -57,7 +57,7 @@ def test_update_models_no_urls(store):
         assert out_str in result.output
         assert result.exit_code == 1
 
-@pytest.mark.skip()
+@pytest.mark.slow()
 def test_lc_unhandled_producer_links_marks_unknown():
     scraper = LCModelScraper()
     with open('tests/data/lc_test_nonstandard_producer_links.html') as f:
@@ -67,7 +67,6 @@ def test_lc_unhandled_producer_links_marks_unknown():
 
     assert producer == 'Unknown'
 
-@pytest.mark.skip()
 def test_invalid_type_raises_error():
     with pytest.raises(DataError):
         broken_grape = Grape({
