@@ -18,25 +18,10 @@ class LCModelScraper(object):
             attrs={'class': 'product_basic_details'}).find('div').find(
                 'p').text.split('|')[1].strip().split(' ')[1]
 
+        grape = self._get_grape(soup)
 
-        first_detail = soup.find(attrs={'class': 'product_details_detail'})
-        details = first_detail.find('a').text.split('❭')
-        _type = details[1].strip().split(' ')[0]
-        grape = details[2].strip()
-        grape = Grape({
-            '_type': _type,
-            'name': grape,
-        })
+        producer = self._get_producer(soup)
 
-        producer_links = soup.find(attrs={'class': 'producer_links'}).find_all(
-            'a'
-        )
-        if len(producer_links) == 1 or len(producer_links) == 2:
-            producer = producer_links[0].text
-        elif len(producer_links) == 3:
-            producer = producer_links[1].text
-        else:
-            producer = 'Unknown'
 
         price = soup.find(attrs={'class': 'product_price'}).text.strip()
 
@@ -62,7 +47,7 @@ class LCModelScraper(object):
         ]
         url = parse_url(req.url)
         print(f'Scraping stores for {name}...')
-        #stores = self._get_all_stores(f'{url.scheme}://{url.host}', soup, name)
+        stores = self._get_all_stores(f'{url.scheme}://{url.host}', soup, name)
 
         wine = Wine({
             'name': name,
@@ -101,3 +86,27 @@ class LCModelScraper(object):
         print(f'Done scraping stores for {name}')
 
         return stores
+
+    def _get_grape(self, soup):
+        first_detail = soup.find(attrs={'class': 'product_details_detail'})
+        details = first_detail.find('a').text.split('❭')
+        _type = details[1].strip().split(' ')[0]
+        grape = details[2].strip()
+        grape = Grape({
+            '_type': _type,
+            'name': grape,
+        })
+
+        return grape
+
+    def _get_producer(self, soup):
+        producer_links = soup.find(
+            attrs={'class': 'producer_links'}).find_all('a')
+        if len(producer_links) == 1 or len(producer_links) == 2:
+            producer = producer_links[0].text
+        elif len(producer_links) == 3:
+            producer = producer_links[1].text
+        else:
+            producer = 'Unknown'
+
+        return producer

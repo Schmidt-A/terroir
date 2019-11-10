@@ -7,3 +7,4 @@ eggs
 data
 build
 dist
+.coverage

@@ -32,10 +32,8 @@ def update_models_cmd(store, config_file, data_dir):
     config = ConfigParser()
     print(f'Reading config from {config_file}')
     config.read(config_file)
-
     parser = resolve_dotted(config[store]['parser'])()
 
-    i = 0
     with open(saved_urls) as f:
         for url in f:
             url = url.strip()
@@ -43,6 +41,3 @@ def update_models_cmd(store, config_file, data_dir):
             req = requests.get(url)
             data = parser(req)
             print(json.dumps(data.to_primitive()))
-            i += 1
-            if i > 4:
-                break

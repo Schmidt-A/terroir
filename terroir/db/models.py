@@ -9,7 +9,7 @@ class WineType(StringType):
         wine_types = ['red', 'rose', 'sparkling', 'white']
         if value.lower() not in wine_types:
             raise ValidationError(
-                f'Wine _type must be one of: {", ".join(wine_types)}')
+                f'Wine type must be one of: {", ".join(wine_types)}')
 
 class Grape(Model):
     name = StringType(required=True)
