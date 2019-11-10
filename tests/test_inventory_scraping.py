@@ -11,7 +11,7 @@ from fixtures import get_config_data
 from utils import MockResponse, write_isolated_file
 
 
-test_params = [
+test_full_fetch_params = [
     (
         'lc',
         'lc_last_wines.html',
@@ -52,29 +52,34 @@ def mocked_requests_get(*args, **kwargs):
 
     return MockResponse(html, url)
 
-def mocked_get_next_wine_type(self):
-    return None
+
+def common_conf_data(get_config_data, html_file):
+    config_file = os.path.join('configs', 'fetch_inventory.ini')
+    config_data = get_config_data(config_file)
+    html_path = os.path.join('tests', 'data', html_file)
+    with open(html_path) as f:
+        html = f.read().replace('\n', '')
+
+    return config_file, config_data, html_path, html
 
 
 @pytest.mark.parametrize(
-    'store, html_file, out_str_1, out_str_2', test_params)
+    'store, html_file, out_str_1, out_str_2', test_full_fetch_params)
 @mock.patch('requests.get', side_effect=mocked_requests_get)
-#@mock.patch.object(KenastonListScraper, 'get_next_wine_type', mocked_get_next_wine_type)
-def test_mocked_full_inventory_command(mock_get, get_config_data, store, html_file, out_str_1, out_str_2):
+def test_inventory_command(mock_get, get_config_data, store, html_file, out_str_1, out_str_2):
     runner = CliRunner()
-    config_file = os.path.join('configs', 'fetch_inventory.ini')
-    config_data = get_config_data(config_file)
-    html_file = os.path.join('tests', 'data', html_file)
-    with open(html_file) as f:
-        html = f.read().replace('\n', '')
+
+    config_file, config_data, html_path, html = common_conf_data(
+        get_config_data, html_file
+    )
 
     with runner.isolated_filesystem():
         # Set up config and data
         write_isolated_file(config_file, config_data)
-        write_isolated_file(html_file, html)
+        write_isolated_file(html_path, html)
 
         result = runner.invoke(terroir, ['fetch_inventory', store])
-        print(result.output)
+
         # Make sure it wrote urls how we expect
         with open(os.path.join('data', 'inventory', store, 'urls.txt')) as f:
             parsed_urls = f.read()
@@ -85,55 +90,59 @@ def test_mocked_full_inventory_command(mock_get, get_config_data, store, html_fi
         assert out_str_2 in parsed_urls
 
 
-# TODO: assert next fetch gets next_page when present
-
+@pytest.mark.parametrize(
+    'store, html_file, out_str_1, out_str_2', test_full_fetch_params)
 @mock.patch('requests.get', side_effect=mocked_requests_get)
-def test_mocked_inventory_force_overwrite(mock_get, get_config_data):
-    store = 'lc'
+def test_inventory_force_overwrite(
+    mock_get, get_config_data, store, html_file, out_str_1, out_str_2):
     runner = CliRunner()
-    config_file = os.path.join('configs', 'fetch_inventory.ini')
-    config_data = get_config_data(config_file)
-    html_file = os.path.join('tests', 'data', 'lc_last_wines.html')
-    with open(html_file) as f:
-        html = f.read().replace('\n', '')
+    config_file, config_data, html_path, html = common_conf_data(
+        get_config_data, html_file
+    )
     real_urls_file = os.path.join('data', 'inventory', store, 'urls.txt')
 
     with runner.isolated_filesystem():
         # Set up config and data
         write_isolated_file(config_file, config_data)
-        write_isolated_file(html_file, html)
+        write_isolated_file(html_path, html)
+        # Stub this in so app recognizes the data file exists.
         write_isolated_file(real_urls_file, 'testdata')
 
         result = runner.invoke(terroir, ['fetch_inventory', store, '-f'])
 
         # Make sure it wrote urls how we expect
-        with open(os.path.join('data', 'inventory', 'lc', 'urls.txt')) as f:
+        with open(os.path.join('data', 'inventory', store, 'urls.txt')) as f:
             parsed_urls = f.read()
 
         assert result.exit_code == 0
         assert 'force_overwrite was specified' in result.output
         assert len(parsed_urls) > 0
-        assert 'https://www.liquormarts.ca' in parsed_urls
-        assert 'zuccardi-tito-paraje-altamira' in parsed_urls
+        assert out_str_1 in parsed_urls
+        assert out_str_2 in parsed_urls
 
 
-def test_no_overwrite_without_flag(get_config_data):
-    store = 'lc'
-    url = 'test.com'
+@pytest.mark.parametrize(
+    'store',
+    [
+        ('lc'),
+        ('kenaston')
+    ])
+def test_no_overwrite_without_flag(get_config_data, store):
     runner = CliRunner()
     config_file = os.path.join('configs', 'fetch_inventory.ini')
     config_data = get_config_data(config_file)
-    data_file = os.path.join('data', 'inventory', store, 'urls.txt')
 
     with runner.isolated_filesystem():
         # Set up config and data
         write_isolated_file(config_file, config_data)
-        write_isolated_file(data_file, url)
+        write_isolated_file(
+            os.path.join('data', 'inventory', store, 'urls.txt'), 'testurl.com')
 
         result = runner.invoke(terroir, ['fetch_inventory', store])
 
         assert result.exit_code == 0
         assert 'Use -f or --force-overwrite' in result.output
+
 
 @pytest.mark.parametrize('scraper, html_file', test_get_href_params)
 def test_scraper_gets_next_href(scraper, html_file):
