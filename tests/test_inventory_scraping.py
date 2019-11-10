@@ -7,7 +7,6 @@ from click.testing import CliRunner
 
 from terroir.commands import terroir
 from terroir.inventory.scrapers import LCListScraper, KenastonListScraper
-from fixtures import get_config_data
 from utils import MockResponse, write_isolated_file
 
 

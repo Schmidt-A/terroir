@@ -19,3 +19,12 @@ def pytest_collection_modifyitems(config, items):
     for item in items:
         if "slow" in item.keywords:
             item.add_marker(skip_slow)
+
+
+@pytest.fixture
+def get_config_data():
+    def _get_config_data(config_file):
+        with open(config_file) as f:
+            return f.readlines()
+
+    return _get_config_data

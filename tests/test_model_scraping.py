@@ -9,7 +9,6 @@ from terroir.commands import terroir
 from terroir.db.models import Grape
 from terroir.db.scrapers import LCModelScraper
 from terroir.inventory import fetch_inventory_cmd
-from fixtures import get_config_data
 from utils import write_isolated_file
 
 
