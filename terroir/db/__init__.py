@@ -6,10 +6,14 @@ from configparser import ConfigParser
 import requests
 
 import click
+from tinydb import TinyDB
 from zope.dottedname.resolve import resolve as resolve_dotted
 
 from terroir.commands import terroir
 
+
+def setup_db(db_file):
+    return TinyDB(db_file)
 
 @terroir.command(name='update_models')
 @click.argument('store', type=click.STRING)
@@ -33,6 +37,7 @@ def update_models_cmd(store, config_file, data_dir):
     print(f'Reading config from {config_file}')
     config.read(config_file)
     parser = resolve_dotted(config[store]['parser'])()
+    db = setup_db(config['default']['db'])
 
     with open(saved_urls) as f:
         for url in f:
@@ -40,4 +45,5 @@ def update_models_cmd(store, config_file, data_dir):
             print(f'Fetching and scraping {url}')
             req = requests.get(url)
             data = parser(req)
-            print(json.dumps(data.to_primitive()))
+            print(f'Adding {data.name} to DB')
+            db.insert(data.to_native())

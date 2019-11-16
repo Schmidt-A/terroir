@@ -22,7 +22,6 @@ class LCModelScraper(object):
 
         producer = self._get_producer(soup)
 
-
         price = soup.find(attrs={'class': 'product_price'}).text.strip()
 
         country = soup.find(
