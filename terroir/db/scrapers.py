@@ -7,6 +7,21 @@ from urllib3.util import parse_url
 from terroir.db.models import Grape, Wine
 
 
+class KenastonModelScraper(object):
+
+    def __call__(self, req):
+        wine_data = req.json()
+
+        # infuriatingly, the json does not have some data parsed into
+        # individual fields so we have to parse the body html too
+
+        soup = BeautifulSoup(wine_data['body_html'])
+
+        wine = Wine({
+            'name': wine_data['title']
+        })
+
+
 class LCModelScraper(object):
 
     def __call__(self, req):

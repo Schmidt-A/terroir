@@ -70,7 +70,7 @@ class KenastonListScraper(object):
         ]
 
         for link in links:
-            href = link.get('href')
+            href = f'{link.get("href")}.json'
             if href not in wine_urls:
                 wine_urls.append(href)
 

@@ -57,7 +57,7 @@ def test_update_models_command(store, url, wine, grape, _type, get_config_data):
         test_wine = Wine(db.all()[0])
         assert test_wine.name == wine
         assert test_wine.grape.name == grape
-        assert test_wine.grape._type == _type
+        assert test_wine.grape._type == _type  # pylint: disable-all
         assert len(test_wine.stores) > 0
 
 @pytest.mark.slow()

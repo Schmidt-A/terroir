@@ -45,5 +45,7 @@ def update_models_cmd(store, config_file, data_dir):
             print(f'Fetching and scraping {url}')
             req = requests.get(url)
             data = parser(req)
+            return
             print(f'Adding {data.name} to DB')
+            # TODO: replace with tinydb update
             db.insert(data.to_native())
