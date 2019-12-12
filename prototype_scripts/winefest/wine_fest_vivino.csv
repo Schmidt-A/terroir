@@ -1,0 +1,396 @@
+wine_fest_name,vivino_name,winery,rating,num_ratings,match_confidence
+Anciano 7-Year-Old Gran Reserva Tempranillo,Reserva - 7 Years Tempranillo,Anciano,3.6,1232,0.675
+Anciano 10-Year-Old Gran Reserva Tempranillo,35 Years Old Vines Garnacha,Anciano,3.6,455,0.5569620253164557
+Anciano Clásico Garnacha,Clásico Garnacha,Anciano,3.6,690,1.0
+Anciano Old Vines Garnacha,35 Years Old Vines Garnacha,Anciano,3.6,455,0.8524590163934426
+Villa Conchi Brut Seleccion Cava,Cava Brut Selección,Villa Conchi,3.7,3257,0.8125
+Villa Conchi Brut Reserva Cava,Cava Brut Reserva,Villa Conchi,3.5,89,0.8333333333333334
+Gran Sello Rosé Rosé,Cava Brut Rosé,Gran Sello,3.9,18,0.7111111111111111
+Gran Sello Tempranillo Syrah,Tempranillo - Syrah,Gran Sello,3.8,2434,0.9655172413793104
+Rioja Bordón White,Rioja Bordón Gran Reserva,Franco-Espanolas,3.9,10207,0.4666666666666667
+Rioja Bordón Reserva,Rioja  Bordón Reserva,Franco-Espanolas,3.7,5931,0.6896551724137931
+Rioja Bordón Gran Reserva,Rioja Bordón Gran Reserva,Franco-Espanolas,3.9,10207,0.746268656716418
+Finca el Encinal Crianza,Finca El Encinal Crianza,Bodegas Valparaíso,3.6,1216,0.6865671641791045
+Baluarte Gran Feudo Verdejo,Gran Baluarte Joven Mezcal,,4,2,0.4528301886792453
+Baluarte Gran Feudo Rosado Rosé,Gran Baluarte Joven Mezcal,,4,2,0.45614035087719296
+Baluarte Gran Feudo Roble Navarra,Gran Baluarte Joven Mezcal,,4,2,0.4406779661016949
+Baluarte Gran Feudo Roble Ribera del Duero,Gran Baluarte Joven Mezcal,,4,2,0.38235294117647056
+Pradorey Verdejo,Verdejo,PradoRey,3.5,1062,0.9375
+Pradorey Origen Roble,Roble (Origen),PradoRey,3.5,6977,0.6363636363636364
+Pradorey Finca Valdelayegua,Single Vineyard Finca Valdelayegua Crianza,PradoRey,3.7,4876,0.6666666666666666
+Pradorey Adaro Crianza,Adaro Tinto,PradoRey,4,1130,0.7619047619047619
+Ramon Bilbao Verdejo,Verdejo Rueda,Ramón Bilbao,3.7,2715,0.8260869565217391
+Ramon Bilbao Rosado Rosé,Rioja Rosado,Ramón Bilbao,3.6,2894,0.7346938775510204
+Ramon Bilbao Crianza,Crianza Rioja,Ramón Bilbao,3.7,40327,0.8260869565217391
+Ramon Bilbao Limited Edition,Edición Limitada,Ramón Bilbao,3.9,15320,0.631578947368421
+Tarima Sparkling,Tarima Moscatel Sparkling,Volver,3.7,215,0.6666666666666666
+Tarima Monastrell,Tarima Monastrell,Volver,3.6,12101,0.8292682926829268
+Tarima Hill,Tarima Hill Old Vines Monastrell,Volver,3.9,12687,0.44
+Volver Single Vineyard,Single Vineyard Tempranillo,Volver,3.9,8828,0.7857142857142857
+Bù Viura Airen Verdejo,,,0.0,0,0.0
+Bù Tempranillo,Bù Tempranillo,Jessica Harnois,3,33,0.6363636363636364
+Liberado Verdejo Sauvignon Blanc,Liberado Verdejo - Sauvignon Blanc,,3.3,68,0.9696969696969697
+Liberado Cabernet Sauvignon Tempranillo,Liberado Cabernet Sauvignon - Tempranillo,,3.5,228,0.975
+Campo Viejo Tempranillo Blanco,Viura - Tempranillo Blanco,Campo Viejo,3.5,1021,0.8823529411764706
+Campo Viejo Reserva,Reserva,Campo Viejo,3.7,37506,1.0
+Campo Viejo Gran Reserva,Gran Reserva,Campo Viejo,3.9,17438,1.0
+Campo Viejo Wine Maker's Art,Winemaker's Art,Campo Viejo,3.9,405,0.9454545454545454
+Familia Castano Dominio Espinal Blanco,,,0.0,0,0.0
+Familia Castano Monastrell Ecologico Organic,,,0.0,0,0.0
+Familia Castano GSM,,,0.0,0,0.0
+Familia Castano Solanera,,,0.0,0,0.0
+Freixenet Cordon Negro Brut Cava,Cava Cordón Negro Brut,Freixenet,3.6,14686,0.8125
+Freixenet Elyssia Gran Cuvee Brut,Elyssia Gran Cuvée Méthode Traditionelle Brut,Freixenet,3.7,2407,0.75
+Freixenet Cuvee DS,Cava Cuvee D.S. de Prestige Gran Reserva Brut,Freixenet,3.7,329,0.4931506849315068
+Freixenet Elyssia Pinot Noir Rosé Brut,Elyssia Pinot Noir Brut,Freixenet,3.7,1640,0.9166666666666666
+Juan Gil Rosado Rosé,Pedrera Rosado,Juan Gil,0,0,0.6976744186046512
+Bodegas Ateca Honoro Vera Garnacha,Atteca Garnacha (Old Vines),Bodegas Ateca,3.9,6671,0.6666666666666666
+Bodegas Tridente Entresuelos Tempranillo,Atteca Oriente,Bodegas Ateca,3.5,118,0.4117647058823529
+Bodegas Tridente Gota de Arena,Atteca Oriente,Bodegas Ateca,3.5,118,0.4827586206896552
+Beronia Rueda Verdejo,Rueda Verdejo,Beronia,3.5,1648,1.0
+Beronia Gran Reserva,Rioja Gran Reserva,Beronia,4.1,11120,0.8695652173913043
+Beronia Tempranillo,Rioja Tempranillo,Beronia,3.7,2120,0.8636363636363636
+Tio Pepe Sherry,Palomino Fino Sherry (Muy Seco),Tio Pepe,3.3,4551,0.5454545454545454
+Gran Castillo de Rocio Cava Brut,Dulce de Moscatel,Gran Castillo,3.4,9,0.6666666666666666
+Goatas del Mar Albarino,,,0.0,0,0.0
+Manos Libre Organic Tempranillo,Tempranillo,Manos Libre,3.4,208,0.8518518518518519
+Radio Boka Tempranillo,Tempranillo Valencia,Radio Boca,3.6,5728,0.7924528301886793
+Pata Negra Organic Cava,Organic Cava,Pata Negra,3.5,251,1.0
+Pata Negra Verdejo,Verdejo,Pata Negra,3.3,2359,1.0
+Pata Negra Toro Roble,Toro Roble,Pata Negra,3.3,789,1.0
+Antano Rioja Reserva DO,Rioja Reserva,Antaño,3.4,3333,0.8837209302325582
+Nisia,Nisia Verdejo Old Vines,Ordóñez,3.8,2322,0.2777777777777778
+La Cana,Albarino,La Caña,3.8,3999,0.5217391304347826
+Botani Old Vines,Moscatel Old Vines,Botani,3.9,2750,0.7804878048780488
+Triton Tinta de Toro,Triton Tinta de Toro,Tridente,3.7,1674,0.8163265306122449
+Juvé Y Camps Cinta Purpura Brut Reserva,Juve Y Champs Brut Nature Reserva Cava,,3.9,28,0.6233766233766234
+Juvé Y Camps Reserva de la Familia,Juve Y Champs Brut Nature Reserva Cava,,3.9,28,0.6111111111111112
+Juvé Y Camps Gran Reserva,Juve Y Champs Brut Nature Reserva Cava,,3.9,28,0.6984126984126984
+Juvé Y Camps Brut Rosé,Huve Y Pamps Pinot Noir Brut Rose,,3.1,4,0.6545454545454545
+El Petit Bonhomme Blanco,El Petit Bonhomme Blanco,Les Vins Bonhomme,3.4,253,0.7272727272727273
+El Petit Bonhomme Tinto,El Petit Bonhomme Tinto,Les Vins Bonhomme,3.5,527,0.71875
+El Grand Bonhomme,El Grand Bonhomme Cuvée Especial Tempranillo,Les Vins Bonhomme,3.7,69,0.43037974683544306
+Caminos del Bonhomme Cabernet Sauvignon,Caminos del Bonhomme Cabernet Sauvignon,Les Vins Bonhomme,0,0,0.8125
+Marques de Caceres Rosado Rosé,Rioja Rosado,Marqués de Cáceres,3.4,6187,0.7540983606557377
+Marques de Caceres Crianza,Rioja Crianza,Marqués de Cáceres,3.6,41071,0.8275862068965517
+Marques de Caceres Gaudium,Gaudium,Marqués de Cáceres,4.2,4383,0.9230769230769231
+Marques de Caceres Reserva,Rioja Reserva,Marqués de Cáceres,3.8,17330,0.8275862068965517
+Marques del Puerto Rosé Rosé,Crianza,Marqués del Puerto,3.3,2036,0.6666666666666666
+Marques del Puerto Bentus,Bentus Vendimia Seleccionada,Marqués del Puerto,3.4,99,0.6666666666666666
+Marques del Puerto Crianza 2014,Crianza,Marqués del Puerto,3.3,2036,0.8771929824561403
+Marques del Puerto Reserva 2010,Reserva,Marqués del Puerto,3.5,444,0.8771929824561403
+Camps D'Estels Brut Rosé,Brut,Camps d’Estels,3.4,183,0.7906976744186046
+Campos de Luz Garnacha,Garnacha Old Vine,Campos de Luz,3.2,1581,0.8301886792452831
+La Sorda Vendimia Seleccionada Rioja Alavesa,Pinot Grigio,Lasorda,3.1,304,0.34375
+Lo Tros Priorat,Priorat,Lo Tros,3.8,114,1.0
+Lolea No. 2 White Sangria,No. 2 White Sangria Frizzante,Lolea,3.9,784,0.8333333333333334
+Lolea No. 5 Rosé Sangria Sangria,No. 5 Rosé,Lolea,3.6,76,0.6666666666666666
+Lolea No. 1 Sangria Sangria,No. 1 Red Sangria Frizzante,Lolea,4,877,0.7333333333333333
+Lolea No. 1 Sangria Minis Sangria,No. 1 Red Sangria Frizzante,Lolea,4,877,0.696969696969697
+Segura Viudas Brut Reserva,Cava Brut Reserva,Segura Viudas,3.6,4209,0.9122807017543859
+Segura Viudas Brut Rosado,Cava Brut Rosado,Segura Viudas,3.5,1109,0.9090909090909091
+Segura Viudas Heredad Brut Reserva,Cava Reserva Heredad Brut,Segura Viudas,3.9,7705,0.7123287671232876
+Segura Viudas Gran Cuvee Reserva,Cava Gran Cuvée Reserva,Segura Viudas,3.8,1997,0.8985507246376812
+Vina Esmeralda Rosado Rosé,Viña Esmeralda Rosado,Torres,3.9,1920,0.7407407407407407
+Celeste Crianza Ribera del Duero DO,Celeste Crianza,Torres,3.8,22620,0.5263157894736842
+Gran Coronas Cabernet Sauvignon Penedes DO,Gran Coronas Reserva Cabernet Sauvignon,Torres,3.7,22475,0.7045454545454546
+Mas la Plana Cabernet Sauvignon,Mas La Plana Cabernet Sauvignon,Torres,4.1,14544,0.8695652173913043
+St. Hallett Poacher's Blend,Poacher's Blend,St Hallett,3.4,329,0.9811320754716981
+St. Hallett Faith Shiraz,Shiraz Faith,St Hallett,3.6,3420,0.723404255319149
+St. Hallett The Reward Cabernet Sauvignon,The Reward Cabernet Sauvignon,St Hallett,3.8,234,0.9876543209876543
+Grant Burge Barossa Ink Cabernet Sauvignon,Barossa Ink Cabernet Sauvignon,Grant Burge,3.8,297,1.0
+Adorada Pinot Gris,Pinot Gris,Adorada,4.1,229,1.0
+Adorada Rosé,Rosé,Adorada,3.9,634,1.0
+Apothic White,White (Winemaker's Blend),Apothic,3.6,12878,0.5652173913043478
+Apothic Rosé,Rosé (Limited Release),Apothic,3.4,2926,0.5714285714285714
+Apothic Red,Red (Winemaker's Blend),Apothic,3.7,95520,0.5238095238095238
+Apothic Inferno,Inferno (Aged in Whiskey Barrels - Limited Release),Apothic,3.8,11586,0.40540540540540543
+McGuigan The Plan Chardonnay,The Plan Chardonnay,McGuigan,3.3,92,1.0
+McGuigan The Plan Cabernet Sauvignon,The Plan Cabernet Sauvignon,McGuigan,3.6,158,1.0
+Heist Chardonnay,Chardonnay Thieving Beauty,The Heist,3.5,18,0.6153846153846154
+Heist Shiraz,Shiraz,The Heist,3.3,47,0.8571428571428571
+Barefoot Bubbly Pink Moscato,Bubbly Pink Moscato (Champagne),Barefoot,3.7,1452,0.8235294117647058
+Barefoot Pink Pinot Grigio,Pink Pinot Grigio,Barefoot,3.6,44,1.0
+Barefoot Pink Moscato,Pink Moscato,Barefoot,3.8,4113,1.0
+Barefoot Rosé Spritzer Flavoured,Refresh Rose Spritzer,Barefoot,3.8,106,0.6774193548387096
+Beringer Brothers Bourbon Barrel Aged Chardonnay,Private Reserve  Dry Riesling,Gehringer Brothers,3.7,275,0.4166666666666667
+Beringer Main & Vine Dry Rosé,,,0.0,0,0.0
+Beringer Brothers Bourbon Barrel Aged Red Blend,,,0.0,0,0.0
+Birds & Bees Sweet White,,,0.0,0,0.0
+Birds & Bees Sweet Malbec,,,0.0,0,0.0
+9 BODACIOUS,,,0.0,0,0.0
+Bodacious Bubbles,Bubbles,Bodacious,3.1,26,1.0
+Bodacious Bold Chardonnay,Bold & Buttery Chardonnay,Bodacious,3.3,8,0.8333333333333334
+Bodacious Moscato,Moscato,Bodacious,3.2,15,1.0
+Bodacious Dark,Dark,Bodacious,3.7,238,1.0
+Altaland Torrontes,Torrontés,Altaland,3.7,139,0.9444444444444444
+Catena Chardonnay,Chardonnay,Catena,3.8,11695,1.0
+Catena Cabernet Sauvignon,Cabernet Sauvignon (High Mountain Vines),Catena,3.8,20184,0.6944444444444444
+Catena Malbec,Malbec (High Mountain Vines),Catena,3.9,86240,0.5416666666666666
+Marlo Chardonnay,Chardonnay,Marlo,3.6,45,1.0
+Marlo Cabernet Sauvignon,Cabernet Sauvignon,Marlo,3.3,154,1.0
+Bodegas Bianchi Familigia Bianchi Red Blend,Cava Privada De Bodegas Bianchi Cabernet Sauvignon,Teatro Colon,4,1,0.39622641509433965
+Finca Los Primos Red Blend,Malbec,Finca Los Primos,3.5,1354,0.7346938775510204
+Bottega dei Poeti Prosecco,Prosecco Il Vino Dei Poeti,Bottega,3.6,3623,0.5333333333333333
+Bottega Gold Brut Prosecco,Gold,Bottega,3.7,3782,0.631578947368421
+Bottega Sauvignon Blanc,Sauvignon Blanc,Bottega Vinai,3.7,558,0.8846153846153846
+Bottega Venedika,Venedika Venezia,Bottega,4.1,100,0.8
+Bread & Butter Chardonnay,,,0.0,0,0.0
+Bread & Butter Rosé,,,0.0,0,0.0
+Bread & Butter Pinot Noir,,,0.0,0,0.0
+Bread & Butter Cabernet Sauvignon,,,0.0,0,0.0
+Chateau Ste. Michelle Columbia Valley Rosé,Limited Release Syrah Rosé,Château Ste. Michelle,3.8,159,0.7111111111111111
+MERF Columbia Valley Chardonnay,Chardonnay,Merf,3.8,290,0.5652173913043478
+MERF Columbia Valley Cabernet Sauvignon,Cabernet Sauvignon,Merf,3.7,1376,0.6774193548387096
+H3 Horse Heaven Hills Cabernet Sauvignon,H3 Cabernet Sauvignon,Columbia Crest,3.7,18628,0.5526315789473685
+Casillero del Diablo Pinot Grigio,Pinot Grigio (Reserva),Casillero del Diablo,3.4,4676,0.868421052631579
+Casillero del Diablo Reserva Especial,Reserva Especial Cabernet Sauvignon,Casillero del Diablo,3.7,245,0.7956989247311828
+Diablo Dark,Dark Red,Diablo,4,4565,0.8461538461538461
+Marques de Casa Concha Carmenere,Carmenère,Marques de Casa Concha,4,22948,0.96875
+Cono Sur Bicicleta Sauvignon Blanc,Bicicleta Sauvignon Blanc,Cono Sur,3.4,2924,1.0
+Cono Sur Bicicleta Pinot Noir Rosé,Bicicleta Pinot Noir Rosé,Cono Sur,3.4,824,1.0
+Cono Sur Bicicleta Red Blend,Bicicleta Red Blend,Cono Sur,3.3,16,1.0
+Cono Sur Single Vineyard Pinot Noir,Viento Mar Block No. 21 Single Vineyard Pinot Noir,Cono Sur,3.7,2052,0.7446808510638298
+Twilight of the Adelaide Hills Chardonnay,,,0.0,0,0.0
+Fairytale of the Barossa Grenache Rosé,Fairytale,Acheon,3.9,7,0.3333333333333333
+Pride of the Fleurieu Peninsula Cabernet Sauvignon,Pride Of The South,Eagle Springs,4.7,9,0.3170731707317073
+Lion's Tooth of McLaren Vale Shiraz Riesling,Lion's Tooth Shiraz - Riesling,Dandelion Vineyards,3.9,836,0.5957446808510638
+De Bortoli Rosé,Rosé,De Bortoli,3.4,19,1.0
+De Bortoli Woodfired Sparkling Shiraz,Woodfired Sparkling Shiraz,De Bortoli,3.3,15,1.0
+De Bortoli Woodfired Heathcote Shiraz,Woodfired Heathcote Shiraz,De Bortoli,3.6,767,1.0
+De Bortoli Down The Lane Shiraz Tempranillo,Down the Lane Shiraz - Tempranillo,De Bortoli,3.3,295,0.9545454545454546
+Noble Vines 515 Dry Rosé,515 Rosé,Noble Vines,3.4,462,0.9090909090909091
+Noble Vines 337 Cabernet Sauvignon,337 Cabernet Sauvignon,Noble Vines,3.7,20433,1.0
+Gnarly Head 1924 Double Black Limited Edition Red Blend,1924 Double Black Red Blend (Limited Edition),Gnarly Head,3.8,6256,0.8035714285714286
+Three Finger Jack Old Vine Zinfandel,Three Finger Jack Cabernet Sauvignon,Delicato,4.1,198,0.5925925925925926
+Daringa Mead,McLaren Valle Mead,Daringa,4.1,16,0.631578947368421
+Lucien Arkas Idol Ugni Blanc / Chardonnay,İdol Ugni Blanc - Chardonnay,La Wines - Lucien Arkas Bağları,3.3,215,0.7722772277227723
+Lucien Arkas Idol Cabernet Sauvignon / Merlot,İdol Cabernet Sauvignon - Merlot,La Wines - Lucien Arkas Bağları,3.2,730,0.7889908256880734
+Lucien Arkas Antre Okuzgozu Bogazkere,Antre Öküzgözü - Boğazkere,La Wines - Lucien Arkas Bağları,3.5,230,0.6736842105263158
+Lucien Arkas La Passito Dessert,La Passito,La Wines - Lucien Arkas Bağları,3.6,25,0.6301369863013698
+Smoking Loon Moscato,Blue Loon Moscato,Smoking Loon,3.2,153,0.8
+Smoking Loon Viognier,Viognier,Smoking Loon,3.5,337,1.0
+The Crusher Cabernet Sauvignon,Cabernet Sauvignon,The Crusher,3.7,56,1.0
+The Crusher Petite Sirah,Petite Sirah,The Crusher,3.8,858,1.0
+Dona Paula Rose of Malbec,Rosé of Malbec,Doña Paula,3.3,86,0.92
+Dona Paula Estate Cabernet Sauvignon,Estate Cabernet Sauvignon,Doña Paula,3.6,3981,0.9722222222222222
+Dona Paula Estate Black Edition,Estate Black Edition Red,Doña Paula,3.7,9141,0.9090909090909091
+Duckhorn Decoy Sonoma County Chardonnay,,,0.0,0,0.0
+Duckhorn Migration Sonoma Coast Pinot Noir,,,0.0,0,0.0
+Calera Central Coast Chardonnay,Chardonnay,Calera,3.7,1995,0.7083333333333334
+Calera Central Coast Pinot Noir,Pinot Noir,Calera,3.8,4904,0.7083333333333334
+EastDell Riesling,Riesling,EastDell,3.6,54,1.0
+EastDell Summer Rosé,Summer Rosé,EastDell,3.5,76,1.0
+EastDell Gamay Noir,Gamay Noir,EastDell,3.3,101,1.0
+Lakeview Cellars Vidal Icewine Icewine,Lakeview Monterey County Syrah,Ronan Cellars,4,2,0.2682926829268293
+Dr. Zenzen Noblesse Gewurztraminer,Noblesse Rivaner Trocken,Dr. Zenzen,3,4,0.6956521739130435
+Dr. Zenzen Pinot Blanc,Pinot Blanc Feinherb,Dr. Zenzen,4.4,20,0.8301886792452831
+Dr. Zenzen Elite Riesling,Elite Edition Riesling,Dr. Zenzen,3.2,12,0.8620689655172413
+Dr. Zenzen Elite Pinot Noir,Elite Edition Riesling,Dr. Zenzen,3.2,12,0.6333333333333333
+Fetzer Shaly Loam Gewuztraminer,Shaly Loam Gewürztraminer,Fetzer,3.8,6826,0.9523809523809523
+Fetzer Valley Oaks Cabernet Sauvignon,Valley Oaks Cabernet Sauvignon,Fetzer,3.4,7641,1.0
+1000 Stories Zinfandel,Zinfandel,1000 Stories,4.1,25452,1.0
+Bonterra Cabernet Sauvignon,Cabernet Sauvignon,Bonterra,3.6,13683,1.0
+Enchanted 2017,Enchanted,The Foreign Affair,3.7,64,0.42857142857142855
+The Conspiracy 2016,The Conspiracy,The Foreign Affair,3.7,560,0.5384615384615384
+Parnasse Sauvignon Blanc,Sauvignon Blanc,Parnasse,3.6,129,1.0
+Farm Hand Organic Chardonnay,Organic Chardonnay,Farm Hand,3.6,122,1.0
+Farm Hand Organic Cabernet Sauvignon,Organic Cabernet,Farm Hand,3.8,126,0.8387096774193549
+El Valiente Castilla Tempranillo,El Valiente Tempranillo,Elefante,3.6,229,0.71875
+Les Fumes Blanche Sauvignon Blanc,Les Fumées Blanches Sauvignon Blanc Sparkling (Pétillant),François Lurton,3.7,2929,0.6226415094339622
+Francois Lurton Sauvignon de Bordeaux,Terra Sana  Sauvignon Blanc Côtes de Gascogne,François Lurton,3.3,87,0.6122448979591837
+Francois Lurton Villa Garros Merlot de Bordeaux,Villa Garros Bordeaux Merlot,François Lurton,3.5,101,0.7912087912087912
+Hermanos Lurton Tempranillo,Tempranillo,Hermanos Lurton,3.6,890,1.0
+Fat Bastard Sauvignon Blanc,Sauvignon Blanc,Fat Bastard (Thierry & Guy),3.5,744,0.7714285714285715
+Fat Bastard Cabernet Sauvignon,Cabernet Sauvignon,Fat Bastard (Thierry & Guy),3.3,3333,0.7894736842105263
+Gabriel Meffre Hommage,Hommage Côtes-du-Rhône Rouge,Gabriel Meffre,3.5,47,0.676923076923077
+"Gabriel Meffre Plan de Dieu ""Saint-Mapalis""",Saint-Mapalis Côtes-du-Rhône-Villages 'Plan de Dieu',Gabriel Meffre,3.5,918,0.509090909090909
+Gancia 1850 Prosecco Dry DOC,Prosecco Dry,Gancia,3.9,804,0.8085106382978723
+Gancia Moscato D'Asti,Moscato d'Asti,Gancia,3.8,932,0.9523809523809523
+Gancia Rosé Brut,Rosé Spumante Brut,Gancia,3.3,380,0.7804878048780488
+3G Chardonnay Sushi Wine,,,0.0,0,0.0
+3G Sauvignon Blanc Fish Wine,,,0.0,0,0.0
+3G Malbec Steak & BBQ Wine,,,0.0,0,0.0
+3G Zinfandel Burger Wine,,,0.0,0,0.0
+Gray Monk Pinot Gris,Pinot Gris,Gray Monk,4,1010,1.0
+Gray Monk Gewürztraminer,Gewürztraminer,Gray Monk,4,435,1.0
+Gray Monk Pinot Noir,Pinot Noir,Gray Monk,3.6,925,1.0
+Gray Monk Cabernet Merlot,Cabernet - Merlot,Gray Monk,3.8,187,0.9615384615384616
+Heartland Stickleback,Stickleback Red,Heartland,3.6,3046,0.9130434782608695
+Heartland Shiraz,Shiraz,Heartland,3.8,4393,1.0
+Heartland Heart & Soil Cabernet Sauvignon,,,0.0,0,0.0
+Heartland Director's Cut Cabernet Sauvignon,Director's Cut Cabernet Sauvignon,Heartland,4.1,721,1.0
+Deinhard 1794 Riesling Moscato,Riesling - Moscato,Deinhard,3.6,138,0.8771929824561403
+Deinhard Green Label Riesling,Green Label Riesling,Deinhard,3.7,2041,1.0
+Henkell Trocken Sekt,Trocken Dry-Sec,Henkell,3.2,4351,0.8372093023255814
+Henkell Rosé Sekt,Rosé Dry-Sec,Henkell,3.3,626,0.7368421052631579
+Liberty School Cabernet Sauvignon,Cabernet Sauvignon,Liberty School,3.8,18822,1.0
+Austin Hope Cabernet Sauvignon,Cabernet Sauvignon,Austin Hope,4.5,6800,1.0
+Treana Cabernet Sauvignon,Cabernet Sauvignon,Treana,4.2,3358,1.0
+Jacob's Creek Dots Pinot Grigio,Classic Shiraz - Cabernet,Jacob's Creek,3.3,14471,0.42857142857142855
+Jacob's Creek Dots Moscato Rosé,Classic Shiraz - Cabernet,Jacob's Creek,3.3,14471,0.42857142857142855
+Jacob's Creek Double Barrel Chardonnay,Double Barrel Chardonnay,Jacob's Creek,3.3,41,1.0
+Jacob's Creek Double Barrel Shiraz,Double Barrel Shiraz,Jacob's Creek,3.9,7514,1.0
+Joiy Shimmering Bubbles,,,0.0,0,0.0
+Joiy Sparkling Rosé,Sparkling Rosé,Joy Wines,2,1,0.8372093023255814
+Josh Cellars Chardonnay,Mendocino Adobe Cellars Private Selection Pinot Noir,San Jose(US),4.8,5,0.36363636363636365
+Josh Cellars Rosé,Mendocino Adobe Cellars Private Selection Pinot Noir,San Jose(US),4.8,5,0.3170731707317073
+Josh Cellars Cabernet Sauvignon,Mendocino Adobe Cellars Private Selection Pinot Noir,San Jose(US),4.8,5,0.375
+Josh Cellars Legacy,Mendocino Adobe Cellars Private Selection Pinot Noir,San Jose(US),4.8,5,0.3333333333333333
+Kim Crawford Fizz,Fizz Methode Traditionnelle (Small Parcels),Kim Crawford,3.9,183,0.4657534246575342
+Kim Crawford Pinot Gris,Pinot Gris (Pinot Grigio),Kim Crawford,3.7,1480,0.7540983606557377
+Kim Crawford Sauvignon Blanc,Sauvignon Blanc,Kim Crawford,4,40799,1.0
+Kim Crawford South Island Pinot Noir,Pinot Noir,Kim Crawford,3.6,7895,0.7796610169491526
+La Marca Prosecco,Prosecco,La Marca,3.8,17443,1.0
+Believer Organic White Reserve,Believer Organic Red,,3.3,3,0.76
+Believer Organic Shiraz Rosé,Believer Organic Red,,3.3,3,0.75
+Believer Organic Reserve,Believer Organic Red,,3.3,3,0.8636363636363636
+RAZA Gran Reserva Malbec,Gran Reserva Malbec,Raza,3.5,161,0.875
+Sand Point Sauvignon Blanc,Sauvignon Blanc,Sand Point,3.5,425,1.0
+Sand Point Merlot,Merlot,Sand Point,3.6,221,1.0
+Caricature Cabernet Sauvignon,Cabernet Sauvignon,Caricature,3.7,369,1.0
+Ivory & Burt Zinfandel,,,0.0,0,0.0
+Layer Cake Sauvignon Blanc,Sauvignon Blanc,Layer Cake,3.4,316,1.0
+Layer Cake Rosé,Rosé (of Pinot Noir),Layer Cake,3.4,232,0.6521739130434783
+Layer Cake Sea of Stones,Sea of Stones Red,Layer Cake,3.6,950,0.9230769230769231
+Longshot Rosé,Rosé,Longhop,3.2,7,0.88
+Longshot Pinot Grigio,Pinot Grigio,The Ultimate Longshot,3.5,89,0.7636363636363637
+Longshot Chardonnay,Chardonnay,The Ultimate Longshot,3.2,28,0.7450980392156863
+Longshot Cabernet Sauvignon,Cabernet Sauvignon,The Ultimate Longshot,3.5,387,0.8059701492537313
+Crudo Organic Prosecco,,,0.0,0,0.0
+Crudo Organic Cattarratto Zibibbo,,,0.0,0,0.0
+Crudo Organic Rosato,,,0.0,0,0.0
+Crudo Organic Nero d'Avola Cabernet Sauvignon,,,0.0,0,0.0
+Martini Prosecco Extra Dry,Prosecco Extra Dry,Martini,3.7,2232,1.0
+Martini Sparkling Rosé,Bugey-Cerdon  Gamay Rosé Sparkling,Lingot Martin,4.5,27,0.4507042253521127
+Martini Riserva Speciale Ambrato Vermouth Vermouth,Riserva Speciale Ambrato,Martini,4.1,90,0.7804878048780488
+Martini Riserva Speciale Rubino Vermouth Vermouth,Riserva Speciale Rubino,Martini,4.1,175,0.775
+Matua Pinot Gris,Pinot Gris,Matua,3.6,348,1.0
+Matua Sauvignon Blanc,Sauvignon Blanc,Matua,3.9,23540,1.0
+Matua Regional Rosé,Muscat Ottonel Matra Region,Ludányi András,3.3,9,0.36065573770491804
+Concerto Lambrusco Reggiano Frizzante,Concerto Lambrusco Reggiano,Medici Ermete,3.7,3293,0.6923076923076923
+Malvasia Daphne,Daphne Malvasia Secco,Medici Ermete,3.6,88,0.4
+Quercioli Grasparossa Lambrusco,i Quercioli Lambrusco Grasparossa Dolce,Medici Ermete,3.8,801,0.5476190476190477
+Quercioli Lambrusco di Sorbara,i Quercioli Lambrusco di Sorbara Secco,Medici Ermete,3.1,55,0.7317073170731707
+19 Crimes Hard Chardonnay,Hard Chard,19 Crimes,3.5,3159,0.8888888888888888
+19 Crimes Cabernet Sauvignon,Cabernet Sauvignon,19 Crimes,3.7,16212,1.0
+19 Crimes SGM,Red (Shiraz - Grenache - Mataro),19 Crimes,3.9,43605,0.4727272727272727
+19 Crimes The Uprising Blend,The Uprising Red,19 Crimes,3.9,7076,0.9259259259259259
+Old Soul Chardonnay,Chardonnay,Old Soul,3.8,388,1.0
+Old Soul Cabernet Sauvignon,Cabernet Sauvignon,Old Soul,3.8,1099,1.0
+OZV Rosé,Rosé,OZV,3.4,268,1.0
+OZV Old Vine Zinfandel,Old Vine Zinfandel,OZV,3.5,27,1.0
+Oyster Bay Cuvee Brut,Sparkling Cuvée Brut,Oyster Bay,3.5,908,0.7692307692307693
+Oyster Bay Sauvignon Blanc,Sauvignon Blanc,Oyster Bay,3.8,30313,1.0
+Oyster Bay Rosé Rose,Rosé,Oyster Bay,3.4,248,0.8571428571428571
+Oyster Bay Merlot,Merlot,Oyster Bay,3.6,4679,1.0
+La Mascota Malbec,La Mascota Malbec,Mascota Vineyards,3.8,10565,0.6538461538461539
+La Mascota Cabernet Sauvignon,La Mascota Cabernet Sauvignon,Mascota Vineyards,3.7,10786,0.7631578947368421
+La Mascota The Big Bat Cabernet Sauvignon,La Mascota Cabernet Sauvignon,Mascota Vineyards,3.7,10786,0.6590909090909091
+Grand Mascota Malbec,,,0.0,0,0.0
+Pfeiffer Moscato,Moscato,Pfeiffer Wines,4.1,60,0.8421052631578947
+Pfeiffer Carlyle Chardonnay Marsanne,Carlyle Chardonnay - Marsanne,Pfeiffer Wines,4,11,0.9
+Pfeiffer Carlyle Cabernet Merlot,Carlyle Cabernet - Merlot,Pfeiffer Wines,3.7,76,0.8888888888888888
+Pfeiffer Carlyle Shiraz,Carlyle Shiraz,Pfeiffer Wines,3.8,77,0.8846153846153846
+Pillitteri Market Collection Rosé,Market Collection Cabernet - Merlot,Pillitteri Estates,3.6,79,0.6896551724137931
+Pillitteri Market Collection Lena's Bianco,Market Collection Cabernet - Merlot,Pillitteri Estates,3.6,79,0.6875
+Pillitteri Market Collection Gary's Rosso,Market Collection Cabernet - Merlot,Pillitteri Estates,3.6,79,0.6947368421052632
+Pillitteri 25th Anniversary Select Late Harvest Vidal  Dessert,25th Anniversary Select Late Harvest Riesling,Pillitteri Estates,0,0,0.8095238095238095
+Prophecy The Star Pinot Grigio,The Prophet Shiraz,Chapel Hill,4,213,0.3
+Prophecy Rosé,Rosé,Prophecy,3.7,927,1.0
+Prophecy Red Blend,Red Blend,Prophecy,3.6,2892,1.0
+Prophecy Pinot Noir,Pinot Noir,Prophecy,3.7,6413,1.0
+Johnny Q Semillion Sauvignon Blanc,Johnny Q Sémillon - Sauvignon Blanc,Quarisa,3.3,62,0.8311688311688312
+Johnny Q Cabernet Sauvignon,Johnny Q Cabernet Sauvignon,Quarisa,3.5,871,0.8709677419354839
+Caravan Pinot Grigio,Caravan Pinot Grigio,Quarisa,3.5,24,0.8333333333333334
+Caravan Petite Sirah,Caravan Durif (a.k.a Petite Sirah),Quarisa,3.6,5206,0.6451612903225806
+Organic Borealis Haskap Dark,,,0.0,0,0.0
+Organic Mead of Blue Haskap Dark,Organic Mendocino County,Meat Packers,3.3,33,0.4057971014492754
+White Manitoba Mead Honey,Manitou Gold D'Vine Sweet White,,4,2,0.39285714285714285
+Risata Moscato d'Asti DOCG,Moscato d'Asti,Risata,4.2,4248,0.8936170212765957
+Risata Sparkling Rosé,,,0.0,0,0.0
+Risata Pink Moscato,Pink Moscato,Risata,4.1,290,1.0
+Risata Red Moscato,Red Moscato Sweet,Risata,3.8,43,0.8571428571428571
+Ruffino Prosecco,Prosecco,Ruffino,3.7,6402,1.0
+Ruffino Sparkling Rosé,Sparkling Rosé,Ruffino,3.7,1386,0.9333333333333333
+Ruffino IL Ducale Pinot Grigio,Il Ducale Pinot Grigio,Ruffino,3.5,266,0.9666666666666667
+Ruffino Chianti DOCG,Chianti,Ruffino,3.4,35589,0.8571428571428571
+64 SANTA CAROLINA WINE BRANDS,Reserva Syrah (Rapel Estate),Santa Carolina,3.3,1015,0.16666666666666666
+Santa Carolina Reserva Sauvignon Blanc,Reserva Sauvignon Blanc (Leyda Estate),Santa Carolina,3.4,2801,0.8351648351648352
+Santa Carolina Casablanca Cafiro Rosé,Reserva Chardonnay,Santa Carolina,3.3,2661,0.6197183098591549
+Santa Carolina Reserva Pinot Noir,Reserva Pinot Noir (Leyda Estate),Santa Carolina,3.2,2718,0.8148148148148148
+Santa Carolina Reserva de Familia Cabernet,Reserva de Familia Cabernet Sauvignon,Santa Carolina,3.8,5615,0.8936170212765957
+Santa Ema Gran Reserva Sauvignon Blanc,Gran Reserva Sauvignon Blanc,Santa Ema,3.7,301,1.0
+Santa Ema Gran Reserva Cabernet Sauvignon,Gran Reserva Cabernet Sauvignon,Santa Ema,3.7,2971,1.0
+Santa Ema Amplus ONE Carmenere,Amplus One Carmenère,Santa Ema,4,2491,0.9
+Santa Ema Barrel Reserve 60/40,Barrel Reserve 60/40 Cabernet Sauvignon - Merlot,Santa Ema,3.6,3816,0.6818181818181818
+Santa Margherita Prosecco Superior Brut DOCG,Valdobbiadene Prosecco Superiore Brut,Santa Margherita,3.3,8,0.7959183673469388
+Santa Margherita Sparkling Rosé,Pinot Grigio Valdadige,Santa Margherita,3.8,18166,0.6
+Santa Margherita Pinot Grigio DOC,Pinot Grigio Valdadige,Santa Margherita,3.8,18166,0.8333333333333334
+Santa Margherita StilRosé,Stil Rosé,Santa Margherita,3.7,74,0.9803921568627451
+Relax Riesling QBA,Riesling Relax,Schmitt Söhne,3.8,5891,0.4782608695652174
+Relax Pink Rose QBA,Relax Pink,Schmitt Söhne,3.5,375,0.46511627906976744
+Relax Red Blend,Relax Cool Red,Schmitt Söhne,3.4,520,0.4186046511627907
+Relax Pinot Noir,Relax Pinot Noir,Schmitt Söhne,2.3,34,0.6956521739130435
+Sunday Slippers Barossa Chardonnay,Sunday Slippers Chardonnay,Sister's Run,3.2,19,0.7123287671232876
+Cow's Corner Grenache Shiraz Mataro,Cow's Corner Grenache - Shiraz - Mataro,Sister's Run,3.8,110,0.8045977011494253
+Old Testament Coonawara Cabernet,Old Testament Cabernet Sauvignon,Sister's Run,3.6,1974,0.5714285714285714
+Epiphany Shiraz,Epiphany Shiraz,Sister's Run,3.8,2431,0.6976744186046512
+Casa Ferreirinha Planalto Douro White,Planalto Reserva Douro Branco,Casa Ferreirinha,3.7,17517,0.7710843373493976
+Silk and Spice Red Blend,Silk And Lace Red,,4.3,3,0.6829268292682927
+Sandemans 10-Year-Old Tawny Port Port,10 Years Old Tawny Porto,Sandeman,4,1399,0.8571428571428571
+Sandemans Founder Reserve Port Port,Founder's Reserve Ruby Porto,Sandeman,4,710,0.8333333333333334
+Stoneleigh Marlborough Pinot Grigio,Pinot Grigio,Stoneleigh,3.6,273,0.7931034482758621
+Stoneleigh Marlborough Sauvignon Blanc,Sauvignon Blanc,Stoneleigh,3.8,7899,0.8125
+Stoneleigh Latitude Sauvignon Blanc,Sauvignon Blanc Latitude,Stoneleigh,3.9,688,0.7428571428571429
+Stoneleigh Marlborough Pinot Noir,Pinot Noir,Stoneleigh,3.4,3085,0.7777777777777778
+Medeiros Rosé 2017/2018,Rosé,Medeiros,3.7,287,0.7222222222222222
+Medeiros Regional Red 2015,Terras D o Coice Vinho Regional Estremadura,Comporta & Herdeiros,3,2,0.4222222222222222
+Medeiros Private Selection Red 2013,Private Selection,Medeiros,3.7,3,0.8524590163934426
+Medeiros Reserva 2013,Reserva Tinto,Medeiros,4,154,0.7906976744186046
+Hanna Sauvignon Blanc,Sauvignon Blanc,Hanna,3.9,2162,1.0
+Terlato Pinot Grigio,Pinot Grigio,Terlato,3.8,1679,1.0
+The Federalist Bourbon Barrel Red Blend,Bourbon Barrels Aged Red blend,The Federalist,3.8,383,0.9047619047619048
+The Federalist Zinfandel,Zinfandel,The Federalist,3.8,6132,1.0
+Ava Grace Sauvignon Blanc,Sauvignon Blanc,AVA Grace,3.5,696,0.92
+Ava Grace Merlot,Merlot,AVA Grace,3.3,316,0.875
+Stave & Steel Bourbon Aged Cabernet Sauvignon,,,0.0,0,0.0
+7 Deadly Zins,Rosé,7 Deadly Vins,3.9,7,0.7741935483870968
+Tilimuqui Organic Torrontes,,,0.0,0,0.0
+Tilimuqui Organic Shiraz Rosé,,,0.0,0,0.0
+Tilimuqui Organic Cabernet Sauvignon/Bonarda,,,0.0,0,0.0
+Tilimuqui Organic Malbec,,,0.0,0,0.0
+Tommasi Filodora Prosecco Brut,Filodora Prosecco,Tommasi,3.6,2001,0.9090909090909091
+Tommasi Poggio al Tufo Rompicollo,Poggio Al Tufo Rompicollo,Tommasi,3.7,5661,0.9696969696969697
+Tommasi Arele Appasimento,Arele Rosso (Appassimento),Tommasi,3.8,3484,0.847457627118644
+Tommasi Amarone della Valpolicella Classico DOCG,Amarone della Valpolicella Classico,Tommasi,4.3,42464,0.945054945054945
+Three Thieves Pinot Grigio,Pinot Grigio,Three Thieves,3.6,558,1.0
+Three Thieves Cabernet Sauvignon,Cabernet Sauvignon,Three Thieves,3.6,2939,1.0
+Ménage à Trois Luscious Pinot Noir,Luscious Pinot Noir,Ménage à Trois,3.9,765,1.0
+Ménage à Trois Decadence Cabernet Sauvignon,Decadence Cabernet Sauvignon,Ménage à Trois,3.7,3514,1.0
+Trivento Amado Sur,Amado Sur,Trivento,3.6,10139,1.0
+Trivento Malbec Reserva,Terralis Malbec Reserva,Trivento,3.3,176,0.8363636363636363
+Trivento Golden Reserve Malbec,Golden Reserve Malbec,Trivento,3.9,20853,1.0
+Trivento Golden Reserve Cabernet Sauvignon,Golden Reserve Cabernet Sauvignon,Trivento,3.9,868,1.0
+20 Bees Unoaked Chardonnay,Unoaked Chardonnay,20 Bees,3.3,61,1.0
+20 Bees Cabernet Merlot VQA,Cabernet - Merlot,20 Bees,3.4,37,0.8846153846153846
+FRESH Opportunities Riesling/Gewurztraminer VQA,Fresh Opportunities Riesling Gewürztraminer,Diamond Estates,3.9,14,0.6981132075471698
+FRESH Perspectives Satin Red VQA,Fresh Perspectives Satin Red,Diamond Estates,3.3,61,0.631578947368421
+Undurraga Sparkling Rosé Royal,,,0.0,0,0.0
+Undurraga U Sauvignon Blanc,Sauvignon Blanc (U),Undurraga,3.2,2987,0.8928571428571429
+Undurraga Terroir Hunter Cabernet Sauvignon,Terroir Hunter Cabernet Sauvignon (T.H.),Undurraga,4,4470,0.9247311827956989
+Undurraga Sibaris Carmenere,Sibaris Gran Reserva Carmenère,Undurraga,3.8,4956,0.7761194029850746
+Left Field Gisborne Albarino,Albariño,Left Field,3.7,532,0.7659574468085106
+Left Field Sauvignon Blanc,Sauvignon Blanc,Left Field,4,360,1.0
+Villa Maria Private Bin Sauvignon Blanc,Private Bin Sauvignon Blanc,Villa Maria,4,18922,1.0
+Villa Maria Private Bin Hawkes Bay Rosé,Lighter Private Bin Rosé,Villa Maria,3.4,18,0.7466666666666667
+Carmen Premier 1850 Sauvignon Blanc,Premier 1850 Reserva Sauvignon Blanc,Carmen,3.6,354,0.8974358974358975
+Gran Reserva Cabernet Sauvignon,Gran Reserva Cabernet Sauvignon,Tarapacá,3.8,39253,0.8732394366197183
+Gran Reserva Carmenere,Gran Reserva Carmenère,Tarapacá,3.7,19371,0.7924528301886793
+Gran Reserva Syrah,Gran Reserva Syrah,Tarapacá,3.7,3633,0.8
+Robertson Chenin Blanc,William Robertson Chenin Blanc,Robertson Winery,3.6,2656,0.6376811594202898
+Robertson Cabernet Sauvignon,Rushdale Robertson Cabernet Sauvignon Rosé,Rietvallei,3.6,85,0.691358024691358
+Vinologist Chenin Blanc,Chenin Blanc,Vinologist,3.4,108,1.0
+Vinologist Syrah,Syrah,Vinologist,3.4,104,1.0
+Yes Way Rosé,Rosé,Yes Way,3.7,454,1.0
+Yes Way Rosé Bubbles,Rosé,Yes Way,3.7,454,0.75
